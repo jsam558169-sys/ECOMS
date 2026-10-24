@@ -1,0 +1,23 @@
+﻿<Window x:Class="ECOMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ECOMS - Login" Height="350" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#F5F5F5">
+        <StackPanel Width="260" VerticalAlignment="Center">
+            <TextBlock Text="Welcome to ECOMS" FontSize="24" FontWeight="Bold"
+                       Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Email"/>
+            <TextBox x:Name="EmailTextBox" Margin="0,4,0,12" Padding="6"/>
+
+            <TextBlock Text="Password"/>
+            <PasswordBox x:Name="PasswordInput" Margin="0,4,0,20" Padding="6"/>
+
+            <Button Content="Log In" Padding="8" Click="LoginButton_Click"/>
+
+            <TextBlock x:Name="MessageText" Margin="0,12,0,0"
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
