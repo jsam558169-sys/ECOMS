@@ -14,7 +14,7 @@
             <TextBlock Text="Password"/>
             <PasswordBox x:Name="PasswordInput" Margin="0,4,0,20" Padding="6"/>
 
-            <Button Content="Log In" Padding="8" Click="LoginButton_Click"/>
+            <Button Content="Log In" Padding="8" Click="LoginButton_Click" Background="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightTextBrushKey}}"/>
 
             <TextBlock x:Name="MessageText" Margin="0,12,0,0"
                        HorizontalAlignment="Center"/>
